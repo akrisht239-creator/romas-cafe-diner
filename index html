@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roma's Café Diner — Lanka, Varanasi | Est. 2016</title>
+  <meta name="description" content="Roma's Café Diner, Lanka, Varanasi — a family café since 2016 serving North Indian, Italian, Continental and more. Books, board games, live music and free Wi-Fi. Highly rated by diners." />
+  <meta name="keywords" content="Roma's Café Diner, cafe Lanka Varanasi, restaurant Ravidas Gate, family restaurant Varanasi, cafe in Varanasi, North Indian food Varanasi, Italian food Varanasi, book cafe Varanasi" />
+  <meta name="author" content="Roma's Café Diner" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="Roma's Café Diner — Lanka, Varanasi" />
+  <meta property="og:description" content="Food, books, music and board games in the heart of Lanka, Varanasi. Est. 2016. Open 11 AM – 11 PM daily." />
+  <meta property="og:site_name" content="Roma's Café Diner" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1493857671505-72967e2e2760?w=1200&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Roma's Café Diner — Lanka, Varanasi" />
+  <meta name="twitter:description" content="Food, books, music and board games in Lanka, Varanasi. Est. 2016. Open 11 AM – 11 PM daily." />
+  <meta name="theme-color" content="#211a13" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Roma's Café Diner",
+    "description": "Family café and restaurant in Lanka, Varanasi serving North Indian, Italian, Continental and more. Books, board games, live music and free Wi-Fi.",
+    "telephone": "+91-9984444095",
+    "email": "romascafediner@gmail.com",
+    "priceRange": "₹₹",
+    "servesCuisine": ["Cafe","Continental","North Indian","Italian","Asian","Fast Food","Beverages","Sichuan"],
+    "foundingDate": "2016",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "24, 2nd Floor, Swastik Plaza, Near Ravidas Gate, Lanka",
+      "addressLocality": "Varanasi",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "221005",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.2813,
+      "longitude": 83.0031
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "11:00",
+      "closes": "23:00"
+    },
+    "acceptsReservations": true,
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Indoor Seating", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Valet Parking", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Live Music", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Home Delivery", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Takeaway", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Vegetarian Friendly", "value": true}
+    ]
+  }
+  </script>
+  <style>
+/* ============================================================
+   ROMA'S CAFÉ DINER — Premium Editorial Restaurant Stylesheet
+   ============================================================ */
+:root {
+  --bg: #f6f1e7;
+  --bg-deep: #efe7d7;
+  --ink: #211a13;
+  --ink-soft: #55493c;
+  --muted: #7a6f60;
+  --line: #ddd2bd;
+  --accent: #a4501f;
+  --accent-deep: #7e3a12;
+  --accent-light: #d89b6a;
+  --paper: #fbf8f1;
+  --dark: #171208;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --container: 1180px;
+  --gutter: clamp(16px, 4vw, 48px);
+  --radius: 3px;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-weight: 400; line-height: 1.7; font-size: 16px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: hidden; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+ul, ol { list-style: none; }
+address { font-style: normal; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+::selection { background: var(--accent); color: var(--paper); }
+.container { width: min(var(--container), 100% - (var(--gutter) * 2)); margin-inline: auto; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; line-height: 1.1; letter-spacing: -0.01em; color: var(--ink); }
+h1 { font-size: clamp(2.4rem, 6.5vw, 5rem); }
+h2 { font-size: clamp(1.8rem, 4vw, 3.2rem); }
+h3 { font-size: clamp(1.1rem, 1.8vw, 1.35rem); line-height: 1.25; }
+.eyebrow { font-family: var(--font-body); font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.24em; color: var(--accent); margin-bottom: 1rem; display: block; }
+h2 em, .hero-title em { font-style: italic; color: var(--accent); }
+.section { padding-block: clamp(60px, 10vw, 130px); }
+.section-head { max-width: 620px; margin-bottom: clamp(36px, 6vw, 72px); }
+
+/* Buttons */
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: 0.82rem 1.65rem; border-radius: var(--radius); font-family: var(--font-body); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; border: 1.5px solid transparent; cursor: pointer; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease; white-space: nowrap; }
+.btn:active { transform: scale(0.97); }
+.btn-solid { background: var(--accent); color: var(--paper); }
+.btn-solid:hover { background: var(--accent-deep); transform: translateY(-2px); }
+.btn-outline { border-color: currentColor; color: inherit; background: transparent; }
+.btn-outline:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.btn-ghost { color: var(--paper); border-color: rgba(255,255,255,0.5); background: transparent; }
+.btn-ghost:hover { border-color: var(--paper); background: rgba(255,255,255,0.1); }
+
+/* Header */
+.site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding-block: 16px; transition: background 0.35s ease, box-shadow 0.35s ease, padding-block 0.35s ease; }
+.site-header.scrolled { background: rgba(246,241,231,0.94); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: 0 1px 0 var(--line); padding-block: 8px; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.brand { text-decoration: none; display: flex; flex-direction: column; line-height: 1.1; flex-shrink: 0; }
+.brand-name { font-family: var(--font-display); font-size: 1.5rem; color: var(--paper); transition: color 0.35s ease; }
+.brand-sub { font-size: 0.58rem; letter-spacing: 0.28em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-top: 2px; transition: color 0.35s ease; }
+.site-header.scrolled .brand-name { color: var(--ink); }
+.site-header.scrolled .brand-sub { color: var(--muted); }
+.site-header.scrolled .site-nav a { color: var(--ink-soft); }
+.site-header.scrolled .site-nav a:hover { color: var(--accent); }
+.site-header.scrolled .header-call { color: var(--ink); }
+.site-header.scrolled .nav-toggle span { background: var(--ink); }
+.site-nav { display: flex; align-items: center; gap: clamp(16px, 2.5vw, 32px); }
+.site-nav a { color: rgba(255,255,255,0.85); font-size: 0.82rem; font-weight: 500; letter-spacing: 0.04em; position: relative; padding-bottom: 3px; transition: color 0.25s ease; }
+.site-nav a::after { content: ""; position: absolute; left: 0; bottom: 0; width: 100%; height: 1.5px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform 0.3s ease; }
+.site-nav a:hover::after { transform: scaleX(1); transform-origin: left; }
+.site-nav a:hover { color: var(--paper); }
+.header-actions { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+.header-call { color: rgba(255,255,255,0.9); font-size: 0.72rem; padding: 0.55rem 1.1rem; }
+.site-header.scrolled .header-call:hover { background: var(--ink); color: var(--paper); }
+.nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 6px; z-index: 110; }
+.nav-toggle span { display: block; width: 22px; height: 2px; background: var(--paper); border-radius: 2px; transition: transform 0.3s ease, opacity 0.3s ease, background 0.35s ease; }
+.nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle.open span:nth-child(2) { opacity: 0; }
+.nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* Hero */
+.hero { position: relative; min-height: 100svh; min-height: 100vh; display: grid; place-items: end start; overflow: hidden; }
+.hero-media { position: absolute; inset: 0; background-image: linear-gradient(rgba(20,14,8,0.4), rgba(20,14,8,0.55) 60%, rgba(20,14,8,0.78)), url("https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=1920&q=80"); background-size: cover; background-position: center 30%; animation: heroZoom 18s ease-out forwards; will-change: transform; }
+@keyframes heroZoom { from { transform: scale(1.06); } to { transform: scale(1); } }
+.hero-overlay { position: absolute; inset: 0; }
+.hero-content { position: relative; z-index: 2; padding-bottom: clamp(48px, 8vh, 100px); color: var(--paper); max-width: 700px; }
+.hero-title { font-size: clamp(2.4rem, 6.5vw, 5rem); max-width: 14ch; margin-bottom: 1.3rem; }
+.hero-lede { max-width: 50ch; font-weight: 300; font-size: clamp(0.9rem, 1.3vw, 1.05rem); color: rgba(255,255,255,0.85); margin-bottom: 2rem; line-height: 1.8; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 2.4rem; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 10px; font-size: 0.72rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.65); }
+
+/* Marquee */
+.marquee { border-block: 1px solid var(--line); background: var(--paper); overflow: hidden; padding-block: 14px; }
+.marquee-track { display: flex; align-items: center; gap: 26px; white-space: nowrap; width: max-content; animation: marqueeScroll 36s linear infinite; }
+.marquee-track span { font-family: var(--font-display); font-size: 1rem; font-style: italic; color: var(--ink-soft); }
+.marquee-track i { color: var(--accent); font-style: normal; font-size: 0.7rem; }
+@keyframes marqueeScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* Story */
+.story-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(36px, 7vw, 90px); align-items: center; }
+.story-media { margin: 0; }
+.story-media img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.story-copy p + p { margin-top: 1.1rem; color: var(--ink-soft); }
+.story-copy h2 { margin-bottom: 1.4rem; }
+.years-badge { display: inline-flex; align-items: center; gap: 16px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 24px; margin-top: 2rem; }
+.years-number { font-family: var(--font-display); font-size: clamp(2.2rem, 3.5vw, 3rem); font-weight: 500; color: var(--accent); line-height: 1; }
+.years-text { display: flex; flex-direction: column; gap: 2px; }
+.years-text strong { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.02em; }
+.years-text span { font-size: 0.75rem; color: var(--muted); }
+.story-facts { display: grid; grid-template-columns: repeat(3, auto); justify-content: start; gap: clamp(20px, 4vw, 52px); margin-top: 2.2rem; padding-top: 2rem; border-top: 1px solid var(--line); }
+.story-facts strong { display: block; font-family: var(--font-display); font-size: clamp(1.4rem, 2.4vw, 2rem); font-weight: 500; color: var(--accent); }
+.story-facts span { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); }
+
+/* Kitchen / Menu */
+.kitchen { background: var(--bg-deep); }
+.dish-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(20px, 3vw, 36px); }
+.dish-card { background: var(--paper); border: 1px solid var(--line); overflow: hidden; transition: transform 0.35s ease, box-shadow 0.35s ease; }
+.dish-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px -20px rgba(33,26,19,0.25); }
+.dish-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; filter: saturate(0.92); transition: transform 0.6s ease; }
+.dish-card:hover img { transform: scale(1.04); }
+.dish-info { padding: 20px 22px 24px; }
+.dish-info h3 { margin: 0; }
+.dish-info p { margin-top: 6px; font-size: 0.9rem; color: var(--ink-soft); line-height: 1.6; }
+.menu-note { margin-top: clamp(28px, 5vw, 48px); text-align: center; font-size: 0.88rem; color: var(--muted); }
+.menu-note a { color: var(--accent); font-weight: 600; border-bottom: 1px solid currentColor; transition: opacity 0.25s ease; }
+.menu-note a:hover { opacity: 0.7; }
+
+/* Ratings */
+.ratings { background: var(--ink); color: var(--bg); }
+.ratings .eyebrow { color: var(--accent-light); }
+.ratings h2 { color: var(--bg); }
+.rating-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(16px, 3vw, 32px); }
+.rating-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: clamp(20px, 3vw, 32px); text-align: center; transition: background 0.3s ease; }
+.rating-card:hover { background: rgba(255,255,255,0.1); }
+.rating-source { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.18em; color: rgba(246,241,231,0.5); margin-bottom: 12px; }
+.rating-number { font-family: var(--font-display); font-size: clamp(2.4rem, 4vw, 3.2rem); font-weight: 500; line-height: 1; color: var(--bg); }
+.rating-star { color: var(--accent-light); font-size: 0.7em; }
+.rating-count { margin-top: 8px; font-size: 0.82rem; color: rgba(246,241,231,0.6); }
+.rating-bar { margin-top: 16px; height: 3px; background: rgba(255,255,255,0.1); border-radius: 3px; overflow: hidden; }
+.rating-fill { height: 100%; background: var(--accent-light); border-radius: 3px; transition: width 1.2s cubic-bezier(0.2,0.65,0.25,1); }
+
+/* Experience */
+.exp-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.exp-item { padding: clamp(24px, 3.5vw, 40px); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background 0.3s ease; }
+.exp-item:hover { background: var(--paper); }
+.exp-num { font-family: var(--font-display); font-style: italic; color: var(--accent); font-size: 0.95rem; }
+.exp-item h3 { margin: 12px 0 8px; }
+.exp-item p { font-size: 0.9rem; color: var(--ink-soft); line-height: 1.65; }
+
+/* Visit Us */
+.visit { background: var(--ink); color: var(--bg); }
+.visit .eyebrow { color: var(--accent-light); }
+.visit h2 { color: var(--bg); }
+.visit-top { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(32px, 6vw, 80px); align-items: start; }
+.visit-copy h2 { margin-bottom: 1.2rem; }
+.address { margin: 1.4rem 0 1.6rem; color: rgba(246,241,231,0.78); line-height: 1.9; font-size: 0.95rem; }
+.hours { margin-bottom: 2rem; }
+.hours div { display: flex; justify-content: space-between; max-width: 400px; padding: 10px 0; border-top: 1px solid rgba(246,241,231,0.12); font-size: 0.88rem; }
+.hours dt { color: rgba(246,241,231,0.5); }
+.hours dd { font-weight: 500; }
+.visit-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.visit-actions .btn-outline { color: rgba(246,241,231,0.85); }
+.visit-actions .btn-outline:hover { background: var(--bg); color: var(--ink); border-color: var(--bg); }
+.visit-mail { display: inline-block; margin-top: 1.2rem; color: var(--accent-light); font-size: 0.92rem; border-bottom: 1px solid transparent; transition: border-color 0.25s ease; }
+.visit-mail:hover { border-color: var(--accent-light); }
+.visit-map { width: 100%; aspect-ratio: 4 / 3; border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius); overflow: hidden; }
+.visit-map iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+/* Contact */
+.contact { text-align: center; background: var(--bg); }
+.contact-inner { max-width: 680px; }
+.contact-body { color: var(--ink-soft); font-size: 1.05rem; max-width: 48ch; margin: 0 auto 2.5rem; line-height: 1.8; }
+.contact-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(12px, 2vw, 20px); margin-bottom: 2.5rem; }
+.contact-card { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: clamp(18px, 3vw, 28px) 16px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; transition: background 0.3s ease, transform 0.3s ease; }
+.contact-card:hover { background: var(--bg-deep); transform: translateY(-3px); }
+.contact-card-icon { font-size: 1.6rem; }
+.contact-card strong { font-size: 0.82rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+.contact-card span:last-child { font-size: 0.82rem; color: var(--muted); }
+.contact-numbers { padding-top: 2rem; border-top: 1px solid var(--line); font-size: 0.9rem; color: var(--muted); }
+.contact-numbers p + p { margin-top: 8px; }
+.contact-numbers a { color: var(--ink-soft); font-weight: 500; transition: color 0.25s ease; }
+.contact-numbers a:hover { color: var(--accent); }
+
+/* Footer */
+.site-footer { background: var(--dark); color: rgba(246,241,231,0.7); padding-top: clamp(44px, 6vw, 72px); }
+.footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: clamp(28px, 5vw, 60px); padding-bottom: clamp(36px, 5vw, 60px); }
+.foot-brand .brand-name { font-family: var(--font-display); font-size: 1.8rem; color: var(--bg); display: block; margin-bottom: 10px; }
+.foot-brand p { font-size: 0.88rem; line-height: 1.8; }
+.foot-nav { display: flex; flex-direction: column; gap: 8px; }
+.foot-nav a { color: rgba(246,241,231,0.65); font-size: 0.88rem; transition: color 0.25s ease; }
+.foot-nav a:hover { color: var(--accent-light); }
+.foot-contact { display: flex; flex-direction: column; gap: 8px; }
+.foot-contact a { color: rgba(246,241,231,0.65); font-size: 0.88rem; transition: color 0.25s ease; }
+.foot-contact a:hover { color: var(--accent-light); }
+.footer-base { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; padding-block: 20px; border-top: 1px solid rgba(246,241,231,0.1); font-size: 0.75rem; color: rgba(246,241,231,0.4); }
+
+/* Back to top */
+.back-to-top { position: fixed; bottom: 24px; right: 24px; z-index: 80; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; background: var(--ink); color: var(--paper); font-size: 1.1rem; border-radius: var(--radius); opacity: 0; visibility: hidden; transition: opacity 0.35s ease, visibility 0.35s ease, background 0.25s ease; text-decoration: none; }
+.back-to-top.visible { opacity: 1; visibility: visible; }
+.back-to-top:hover { background: var(--accent); }
+
+/* Reveal */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.75s cubic-bezier(0.2,0.65,0.25,1), transform 0.75s cubic-bezier(0.2,0.65,0.25,1); }
+.reveal.visible { opacity: 1; transform: none; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .marquee-track { animation: none; }
+  .hero-media { animation: none; }
+  .dish-card { transition: none; }
+  .dish-card:hover { transform: none; box-shadow: none; }
+  .contact-card { transition: none; }
+  .contact-card:hover { transform: none; }
+  .rating-fill { transition: none; }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { .hero-content { padding-left: clamp(0px, 4vw, 80px); } }
+
+/* Tablet */
+@media (max-width: 960px) {
+  .story-grid, .visit-top { grid-template-columns: 1fr; gap: clamp(28px, 5vw, 52px); }
+  .story-media img { aspect-ratio: 16 / 9; }
+  .dish-grid { grid-template-columns: repeat(2, 1fr); }
+  .rating-grid { grid-template-columns: repeat(3, 1fr); }
+  .exp-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* Mobile */
+@media (max-width: 720px) {
+  .site-nav { position: fixed; top: 0; right: 0; height: 100svh; height: 100vh; width: min(300px, 82vw); background: var(--ink); flex-direction: column; justify-content: center; align-items: flex-start; gap: 24px; padding: 48px 36px; transform: translateX(100%); transition: transform 0.4s cubic-bezier(0.3,0.7,0.3,1); z-index: 105; box-shadow: -10px 0 40px rgba(0,0,0,0.3); }
+  .site-nav.open { transform: translateX(0); }
+  .site-nav a { color: var(--bg) !important; font-size: 1.1rem; font-family: var(--font-display); font-weight: 400; }
+  .site-nav a:hover { color: var(--accent-light) !important; }
+  .nav-toggle { display: flex; }
+  .nav-toggle.open span { background: var(--bg) !important; }
+  .header-call { display: none; }
+  .hero { min-height: 90svh; min-height: 90vh; }
+  .hero-title { font-size: clamp(2rem, 9vw, 3rem); }
+  .dish-grid { grid-template-columns: 1fr; gap: 16px; }
+  .rating-grid { grid-template-columns: 1fr; gap: 12px; }
+  .exp-grid { grid-template-columns: 1fr; }
+  .contact-cards { grid-template-columns: 1fr; gap: 10px; }
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  .visit-map { aspect-ratio: 1 / 1; }
+  .years-badge { flex-direction: column; text-align: center; gap: 8px; padding: 14px 20px; }
+}
+
+/* Small mobile */
+@media (max-width: 430px) {
+  :root { --gutter: 16px; }
+  .hero-lede { font-size: 0.88rem; }
+  .hero-cta { flex-direction: column; }
+  .hero-cta .btn { width: 100%; }
+  .btn { padding: 0.78rem 1.4rem; font-size: 0.76rem; }
+  .story-facts { grid-template-columns: repeat(3, 1fr); gap: 12px; text-align: center; }
+  .visit-actions { flex-direction: column; }
+  .visit-actions .btn { width: 100%; }
+  .hours div { flex-direction: column; gap: 4px; }
+  .footer-base { flex-direction: column; text-align: center; gap: 4px; }
+}
+
+/* Extra small */
+@media (max-width: 375px) {
+  .brand-name { font-size: 1.3rem; }
+  .brand-sub { font-size: 0.52rem; }
+  .hero-title { font-size: 1.8rem; }
+  .section { padding-block: clamp(48px, 8vw, 80px); }
+  h2 { font-size: clamp(1.5rem, 6vw, 2rem); }
+}
+
+/* 320px safeguard */
+@media (min-width: 320px) and (max-width: 374px) {
+  body { font-size: 15px; }
+  .hero { min-height: 88svh; min-height: 88vh; }
+}
+  </style>
+</head>
+<body id="top">
+
+  <!-- HEADER -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Roma's Café Diner — Home">
+        <span class="brand-name">Roma&rsquo;s</span>
+        <span class="brand-sub">Café Diner · Varanasi</span>
+      </a>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+919984444095" class="btn btn-outline header-call">Call to Reserve</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-media" role="img" aria-label="Warm café interior with soft evening light"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content reveal">
+      <p class="eyebrow">Lanka · Varanasi · Est. 2016</p>
+      <h1 class="hero-title">A table that stays<br /><em>yours a little longer.</em></h1>
+      <p class="hero-lede">A family café on the second floor of Swastik Plaza — where plates from nine kitchens share space with borrowed books, slow music and unhurried afternoons.</p>
+      <div class="hero-cta">
+        <a href="tel:+919984444095" class="btn btn-solid">Call to Reserve</a>
+        <a href="#menu" class="btn btn-ghost">See the Menu</a>
+      </div>
+      <div class="hero-meta">
+        <span>Highly rated by diners</span>
+        <span aria-hidden="true">—</span>
+        <span>Open daily · 11:00 AM – 11:00 PM</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUISINE MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Cafe</span><i>·</i><span>Continental</span><i>·</i><span>North Indian</span><i>·</i><span>Italian</span><i>·</i><span>Asian</span><i>·</i><span>Fast Food</span><i>·</i><span>Beverages</span><i>·</i><span>Sichuan</span><i>·</i>
+      <span>Cafe</span><i>·</i><span>Continental</span><i>·</i><span>North Indian</span><i>·</i><span>Italian</span><i>·</i><span>Asian</span><i>·</i><span>Fast Food</span><i>·</i><span>Beverages</span><i>·</i><span>Sichuan</span><i>·</i>
+    </div>
+  </div>
+
+  <!-- ABOUT / STORY -->
+  <section class="section story" id="about">
+    <div class="container story-grid">
+      <figure class="story-media reveal">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80" alt="Inside Roma's Café Diner — shelves of books beside café tables" loading="lazy" width="600" height="750" />
+        <figcaption class="sr-only">The reading corner at Roma's, Lanka.</figcaption>
+      </figure>
+      <div class="story-copy reveal">
+        <p class="eyebrow">Since 2016</p>
+        <h2 id="years-heading">Nine years of<br />second helpings.</h2>
+        <p>Roma's began as a small café near Ravidas Gate with a short menu and long conversations. It grew the way good cafés do — one regular at a time. Students claimed the window seats, families filled the long tables, and the bookshelf kept expanding until it became part of the furniture.</p>
+        <p>Today the kitchen travels further than most — North Indian curries one hour, lasagna the next — but the idea has not moved an inch: cook honestly, serve warmly, and never rush anyone out the door.</p>
+        <div class="years-badge reveal">
+          <span class="years-number" id="yearsCount">10</span>
+          <div class="years-text">
+            <strong>Years of Excellence</strong>
+            <span>Serving Varanasi since <time datetime="2016">2016</time></span>
+          </div>
+        </div>
+        <ul class="story-facts">
+          <li><strong>₹1,200</strong><span>approx. for two</span></li>
+          <li><strong>Highly Rated</strong><span>diner favourite</span></li>
+          <li><strong>2016</strong><span>established</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section kitchen" id="menu">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">From the Kitchen</p>
+        <h2>Dishes people come<br />back for.</h2>
+      </div>
+      <div class="dish-grid">
+        <article class="dish-card reveal">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Grilled steak plated with herbs" loading="lazy" width="450" height="340" />
+          <div class="dish-info"><h3>Steak</h3><p>Seared on the plancha, rested properly, finished with cracked pepper.</p></div>
+        </article>
+        <article class="dish-card reveal">
+          <img src="https://images.unsplash.com/photo-1603052875302-d376b7c0638a?auto=format&fit=crop&w=900&q=80" alt="Crispy glazed honey chilli potatoes" loading="lazy" width="450" height="340" />
+          <div class="dish-info"><h3>Honey Chilli Potatoes</h3><p>Crisp, sticky, faintly fiery — the plate that empties fastest on weekends.</p></div>
+        </article>
+        <article class="dish-card reveal">
+          <img src="https://images.unsplash.com/photo-1510693206972-df098062cb71?auto=format&fit=crop&w=900&q=80" alt="Perfectly folded omelette with fresh herbs" loading="lazy" width="450" height="340" />
+          <div class="dish-info"><h3>Omelette</h3><p>Slow-folded and soft-centered. Breakfast here is taken seriously.</p></div>
+        </article>
+        <article class="dish-card reveal">
+          <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=80" alt="Tall chocolate milkshake topped with cream" loading="lazy" width="450" height="340" />
+          <div class="dish-info"><h3>KitKat Shake</h3><p>Thick enough to argue with the straw. A Lanka institution of its own.</p></div>
+        </article>
+        <article class="dish-card reveal">
+          <img src="https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=900&q=80" alt="Layered lasagna fresh from the oven" loading="lazy" width="450" height="340" />
+          <div class="dish-info"><h3>Lasagna</h3><p>Baked until the edges catch. Layers done patiently, not quickly.</p></div>
+        </article>
+        <article class="dish-card reveal">
+          <img src="https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=900&q=80" alt="Belgian waffles topped with fresh berries" loading="lazy" width="450" height="340" />
+          <div class="dish-info"><h3>Waffles</h3><p>Batter made each morning; served golden with whatever fruit is in season.</p></div>
+        </article>
+      </div>
+      <p class="menu-note reveal">Full menus for dine-in and delivery are shared over call — <a href="tel:+918115998404">+91 81159 98404</a>.</p>
+    </div>
+  </section>
+
+  <!-- RATINGS -->
+  <section class="section ratings" id="ratings">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">What People Say</p>
+        <h2>Highly rated by diners.<br />Staying for the food.</h2>
+      </div>
+      <div class="rating-grid">
+        <div class="rating-card reveal">
+          <div class="rating-source">Google Reviews</div>
+          <div class="rating-number">4.3<span class="rating-star">★</span></div>
+          <div class="rating-count">Diner reviews</div>
+          <div class="rating-bar"><div class="rating-fill" style="width:86%"></div></div>
+        </div>
+        <div class="rating-card reveal">
+          <div class="rating-source">Zomato</div>
+          <div class="rating-number">4.6<span class="rating-star">★</span></div>
+          <div class="rating-count">Dining Rating</div>
+          <div class="rating-bar"><div class="rating-fill" style="width:92%"></div></div>
+        </div>
+        <div class="rating-card reveal">
+          <div class="rating-source">Cost for Two</div>
+          <div class="rating-number">₹1,200</div>
+          <div class="rating-count">Approximate average</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">More Than a Meal</p>
+        <h2>Stay for the afternoon.<br />Many do.</h2>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-item reveal"><span class="exp-num" aria-hidden="true">01</span><h3>A shelf of borrowed stories</h3><p>Pick up any book from the collection, read it over coffee, trade it back or pass it on.</p></div>
+        <div class="exp-item reveal"><span class="exp-num" aria-hidden="true">02</span><h3>Board games on every floor</h3><p>Ludo, carrom, chess and cards live under the counter. Ask, and they appear.</p></div>
+        <div class="exp-item reveal"><span class="exp-num" aria-hidden="true">03</span><h3>Live music evenings</h3><p>Guitars come out when the light goes down. Check our socials for who's playing.</p></div>
+        <div class="exp-item reveal"><span class="exp-num" aria-hidden="true">04</span><h3>Free Wi-Fi, honest tables</h3><p>Fast internet, real chairs and no side-eye for laptops. Work here as long as you order.</p></div>
+        <div class="exp-item reveal"><span class="exp-num" aria-hidden="true">05</span><h3>Family-friendly dining</h3><p>Indoor seating, vegetarian-friendly menus across every cuisine, and room for strollers.</p></div>
+        <div class="exp-item reveal"><span class="exp-num" aria-hidden="true">06</span><h3>Valet parking &amp; easy arrival</h3><p>Drive up to Swastik Plaza, hand us your keys, and head straight upstairs.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT US -->
+  <section class="section visit" id="visit">
+    <div class="container">
+      <div class="visit-top">
+        <div class="visit-copy reveal">
+          <p class="eyebrow">Find Us</p>
+          <h2>Second floor,<br />Swastik Plaza.</h2>
+          <address class="address">24, 2nd Floor, Swastik Plaza<br />Near Ravidas Gate, Lanka<br />Varanasi, Uttar Pradesh 221005</address>
+          <dl class="hours">
+            <div><dt>Monday – Sunday</dt><dd>11:00 AM – 11:00 PM</dd></div>
+            <div><dt>Serves</dt><dd>Breakfast · Lunch · Dinner</dd></div>
+          </dl>
+          <div class="visit-actions">
+            <a class="btn btn-solid" href="tel:+919984444095" aria-label="Call +91 99844 44095">Call Now</a>
+            <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&destination=Roma%27s+Caf%C3%A9+Diner+Swastik+Plaza+Lanka+Varanasi" target="_blank" rel="noopener noreferrer" aria-label="Get Directions to Roma's Café Diner on Google Maps">Get Directions</a>
+          </div>
+          <a class="visit-mail" href="mailto:romascafediner@gmail.com">romascafediner@gmail.com</a>
+        </div>
+        <div class="visit-map reveal">
+          <iframe title="Map showing location of Roma's Café Diner in Lanka, Varanasi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.2!2d83.0031!3d25.2813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE2JzUyLjciTiA4M8KwMDAnMTEuMSJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container contact-inner reveal">
+      <p class="eyebrow">Get in Touch</p>
+      <h2>Come over.<br />We've got a table.</h2>
+      <p class="contact-body">Whether it's a quick coffee, a family dinner or an afternoon with a book — we're here every day from 11 in the morning till 11 at night.</p>
+      <div class="contact-cards">
+        <a href="tel:+919984444095" class="contact-card" aria-label="Call Roma's Café Diner">
+          <span class="contact-card-icon" aria-hidden="true">📞</span>
+          <strong>Call Now</strong>
+          <span>+91 99844 44095</span>
+        </a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Roma%27s+Caf%C3%A9+Diner+Swastik+Plaza+Lanka+Varanasi" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="Get directions to Roma's Café Diner">
+          <span class="contact-card-icon" aria-hidden="true">📍</span>
+          <strong>Get Directions</strong>
+          <span>Swastik Plaza, Lanka</span>
+        </a>
+        <a href="tel:+919984444095" class="contact-card" aria-label="Reserve a table at Roma's">
+          <span class="contact-card-icon" aria-hidden="true">🍽️</span>
+          <strong>Visit Us</strong>
+          <span>Reserve a Table</span>
+        </a>
+      </div>
+      <div class="contact-numbers">
+        <p><a href="tel:+919984444095">+91 99844 44095</a> · <a href="tel:+918115998404">+91 81159 98404</a> · <a href="tel:+915422366138">+91 542 236 6138</a></p>
+        <p><a href="mailto:romascafediner@gmail.com">romascafediner@gmail.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="foot-brand">
+        <span class="brand-name">Roma&rsquo;s</span>
+        <p>Café · Diner · Reading Room<br />Lanka, Varanasi — since 2016.</p>
+      </div>
+      <nav class="foot-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="foot-contact">
+        <a href="tel:+919984444095">+91 99844 44095</a>
+        <a href="tel:+918115998404">+91 81159 98404</a>
+        <a href="mailto:romascafediner@gmail.com">romascafediner@gmail.com</a>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <small>&copy; <span id="year"></span> Roma's Café Diner. All rights reserved.</small>
+      <small>Dine-in · Home Delivery · Takeaway · Table Reservation</small>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+
+  <script>
+(function(){
+  "use strict";
+
+  /* 1. Year calculation */
+  var y=document.getElementById("year");if(y)y.textContent=String(new Date().getFullYear());
+  var E=2016,c=new Date().getFullYear(),ye=c-E;
+  var yc=document.getElementById("yearsCount");if(yc)yc.textContent=ye+"+";
+  var yh=document.getElementById("years-heading");if(yh)yh.textContent=ye+" years of second helpings.";
+
+  /* 2. Header scroll */
+  var h=document.getElementById("siteHeader");
+  function uh(){if(window.scrollY>50)h.classList.add("scrolled");else h.classList.remove("scrolled");}
+  window.addEventListener("scroll",uh,{passive:true});uh();
+
+  /* 3. Mobile nav */
+  var nt=document.getElementById("navToggle"),sn=document.getElementById("siteNav");
+  function on(){sn.classList.add("open");nt.classList.add("open");nt.setAttribute("aria-expanded","true");nt.setAttribute("aria-label","Close menu");document.body.style.overflow="hidden";}
+  function cn(){sn.classList.remove("open");nt.classList.remove("open");nt.setAttribute("aria-expanded","false");nt.setAttribute("aria-label","Open menu");document.body.style.overflow="";}
+  nt.addEventListener("click",function(){sn.classList.contains("open")?cn():on();});
+  var nl=sn.querySelectorAll("a");for(var i=0;i<nl.length;i++)nl[i].addEventListener("click",cn);
+  document.addEventListener("keydown",function(e){if(e.key==="Escape"&&sn.classList.contains("open")){cn();nt.focus();}});
+  document.addEventListener("click",function(e){if(sn.classList.contains("open")&&!sn.contains(e.target)&&!nt.contains(e.target))cn();});
+
+  /* 4. Scroll reveal */
+  var r=document.querySelectorAll(".reveal");
+  if("IntersectionObserver" in window){
+    var o=new IntersectionObserver(function(es){for(var j=0;j<es.length;j++){if(es[j].isIntersecting){es[j].target.classList.add("visible");o.unobserve(es[j].target);}}},{threshold:0.08,rootMargin:"0px 0px -30px 0px"});
+    for(var k=0;k<r.length;k++)o.observe(r[k]);
+  }else{for(var m=0;m<r.length;m++)r[m].classList.add("visible");}
+
+  /* 5. Back to top */
+  var b=document.getElementById("backToTop");
+  function ub(){if(window.scrollY>500)b.classList.add("visible");else b.classList.remove("visible");}
+  window.addEventListener("scroll",ub,{passive:true});ub();
+
+  /* 6. Smooth scroll with offset */
+  var a=document.querySelectorAll('a[href^="#"]');
+  for(var n=0;n<a.length;n++){
+    a[n].addEventListener("click",function(ev){
+      var hr=this.getAttribute("href");if(!hr||hr==="#"||hr.length<2)return;
+      var t=document.querySelector(hr);if(!t)return;
+      ev.preventDefault();
+      var s=t.getBoundingClientRect().top+window.pageYOffset-h.offsetHeight-10;
+      window.scrollTo({top:s,behavior:"smooth"});
+      if(history.pushState)history.pushState(null,null,hr);
+    });
+  }
+})();
+  </script>
+</body>
+</html>
